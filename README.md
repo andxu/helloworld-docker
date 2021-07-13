@@ -3,5 +3,5 @@ Build a sample web using java
 
 ```bash
 mvn package -DskipTests
-mvn jibBuild -DdockerUsername=andxu
+mvn jib:build -DdockerUsername=andxu
 ```
